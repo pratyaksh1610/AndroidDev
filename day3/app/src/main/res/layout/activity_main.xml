@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="Scroll View"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="12dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="12dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet quam gravida tincidunt vel a eros. Sed nec ligula at mi aliquet cursus vel eget mi. Integer non metus et nisl commodo laoreet. Ut ut bibendum justo. Maecenas consectetur justo id sapien aliquam, in luctus libero suscipit. Sed auctor, eros vel sodales fringilla, libero tortor euismod ex, eu egestas tortor purus at elit. Aenean tincidunt, odio a finibus commodo, nisl sem ultrices elit, eu blandit tortor lacus eu elit. Suspendisse sit amet fermentum tellus. Phasellus ac luctus quam. Curabitur quis nibh in libero vulputate consequat eu ac orci. Morbi fermentum urna vel risus congue fringilla. Duis tincidunt sapien vel lectus cursus, sit amet rhoncus ex tincidunt. Integer malesuada purus vel justo tristique, eu varius libero suscipit. Nulla facilisi. Integer fermentum, elit ut ullamcorper gravida, tellus orci suscipit odio, nec convallis lectus odio in justo." />
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/ivImage1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="12dp"
+        android:src="@drawable/ic_launcher_background" />
+
+</LinearLayout>
